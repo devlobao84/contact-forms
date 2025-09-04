@@ -31,7 +31,7 @@ Este projeto foi desenvolvido como parte de um **desafio técnico de Web Designe
 ## 📸 Pré-visualização
 *(Adicione aqui uma imagem/print da interface se quiser)*  
 Exemplo de como incluir:  
-![Preview do Formulário](preview-contact-form.JPG)
+![Preview do Formulário](contact-form/assets/img/preview-contact-form.JPG)
 
 ## 🌐 Como acessar
 1. Clone o repositório:
