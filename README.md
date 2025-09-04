@@ -31,7 +31,7 @@ Este projeto foi desenvolvido como parte de um **desafio técnico de Web Designe
 ## 📸 Pré-visualização
   
 Exemplo de como incluir:  
-![Preview do Formulário](contact-form/assets/img/forms.jpg)
+!![Preview do Formulário](https://raw.githubusercontent.com/devlobao84/contact-forms-KCP/main/contact-forms/assets/img/forms.jpg)
 
 ## 🌐 Como acessar
 1. Clone o repositório:
