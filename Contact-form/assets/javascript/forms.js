@@ -1,23 +1,35 @@
-/* Funcionalidade básica no Forms */
+  document.getElementById("cotacaoForm").addEventListener("submit", function(e) {
+  e.preventDefault();
 
-const form = document.getElementById("leadForm");
-    const successMessage = document.querySelector(".success-message");
-    const errorMessage = document.querySelector(".error-message");
+  const nome = document.getElementById("nome").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const whatsapp = document.getElementById("whatsapp").value.trim();
 
-    form.addEventListener("submit", function(event) {
-      event.preventDefault();
+  // Validação simples
+  if (!nome || !email || !whatsapp) {
+    alert("Por favor, preencha todos os campos obrigatórios.");
+    return;
+  }
 
-      const nome = document.getElementById("nome").value.trim();
-      const email = document.getElementById("email").value.trim();
-      const telefone = document.getElementById("telefone").value.trim();
-      const plano = document.getElementById("plano").value;
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    alert("Digite um e-mail válido.");
+    return;
+  }
 
-      if (nome && email.includes("@") && telefone && plano) {
-        successMessage.style.display = "block";
-        errorMessage.style.display = "none";
-        form.reset();
-      } else {
-        successMessage.style.display = "none";
-        errorMessage.style.display = "block";
-      }
-    });
+  const phoneRegex = /^\(\d{2}\) \d{5}-\d{4}$/;
+  if (!phoneRegex.test(whatsapp)) {
+    alert("Digite um número de WhatsApp válido no formato (11) 99999-9999.");
+    return;
+  }
+
+  // Se tudo ok, segue com modal
+  const msg = `Obrigado pelo seu interesse, ${nome}! Nossa equipe entrará em contato em até 2 horas úteis para apresentar as melhores opções de plano para você.`;
+
+  document.getElementById("successMessage").textContent = msg;
+  document.getElementById("modalWhatsapp").textContent = whatsapp;
+  document.getElementById("modalEmail").textContent = email;
+
+  document.getElementById("successModal").style.display = "flex";
+});
+

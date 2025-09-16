@@ -28,10 +28,12 @@ Este projeto foi desenvolvido como parte de um **desafio técnico de Web Designe
 - **CSS3** → Estilização e responsividade  
 - **JavaScript (ES6+)** → Validação e feedback do formulário  
 
+<<<<<<< HEAD
 ## 📸 Pré-visualização
   
 Exemplo de como incluir:  
-!![Preview do Formulário](https://raw.githubusercontent.com/devlobao84/contact-forms-KCP/main/contact-forms/assets/img/forms.jpg)
+![Preview do Formulário](https://github.com/user-attachments/assets/e2d267d5-26d6-4a9e-a9ea-15dea08ba9b3)
+
 
 ## 🌐 Como acessar
 1. Clone o repositório:
