@@ -30,11 +30,8 @@ Este projeto foi desenvolvido como parte de um **desafio técnico de Web Designe
 
 
 ## 📸 Pré-visualização
-  
-Exemplo de como incluir:  
-
-![Preview do Formulário](https://github.com/user-attachments/assets/e2d267d5-26d6-4a9e-a9ea-15dea08ba9b3)
-
+ 
+![CPreview do Formulário](https://github.com/user-attachments/assets/47de1be5-bc2c-485f-8146-fd67c7872068)
 
 ## 🌐 Como acessar
 1. Clone o repositório:
