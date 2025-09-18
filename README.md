@@ -33,6 +33,8 @@ Este projeto foi desenvolvido como parte de um **desafio técnico de Web Designe
  
 ![CPreview do Formulário](https://github.com/user-attachments/assets/47de1be5-bc2c-485f-8146-fd67c7872068)
 
+
+
 ## 🌐 Como acessar
 1. Clone o repositório:
    git clone https://github.com/devlobao84/contact-forms-KCP.git
@@ -41,6 +43,17 @@ Este projeto foi desenvolvido como parte de um **desafio técnico de Web Designe
 Ou acesse a versão online via **GitHub Pages**:  
 👉 [Ver Demo](https://seu-usuario.github.io/contact-form/)  
 
+Acesse também o protótipo de alta fidelidade da Landing Page *Saúde Mais +* [Protótipo de alta fidelidade](https://www.figma.com/proto/9cRfsmocFN8K1cRckbsRuz/prot%C3%B3ptipo-Sa%C3%BAde-com-Mais-Benef%C3%ADcios?node-id=157-416&t=Ri47BR37eTyqzDzw-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=157%3A416)
+
+## Orientação para navegar no protótipo
+
+1. Abra o protótipo de alta fidelidade clicando no link acima;  
+2. Clique no banner azul da campanha na tela do LinkedIn;  
+3. Desça o scroll da L.P até o formulário de contato;  
+4. Primeira opção: clique no primeiro input e em seguida clique no **CTA em azul**;  
+5. Dê refresh na página até voltar na tela do LinkedIn, desça o scroll novamente até o formulário e desta vez clique diretamente no **CTA**. Você verá que houve um erro, pedindo para preencher todos os campos obrigatórios. 
+
+
 ## ✨ Autor
 Desenvolvido por **Jonas Lobo** (Lobão) 🐺  
-[LinkedIn](https://www.linkedin.com/in/jonaslobo/) | [Portfólio](https://emd.art.br/)  
+[LinkedIn](https://www.linkedin.com/in/jonaslobo/) | [Portfólio](https://emd.art.br/) | [UXUI Designer]([https://emd.art.br/](https://lobao-uxui-design.super.site/))       
